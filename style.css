@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    border: 10px 40px;
+    background-color: blue;
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+}
+
+.ash {
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgb(255, 249, 249);
+    padding: 10px;
+    background-color: rgb(255, 249, 249);
+    margin-top: 1%;
+    scroll-behavior: inherit;
+}
+
+.var {
+    border-top: 4px solid rgb(18, 130, 222);
+    background-color: rgb(241, 236, 236);
+    padding-left: 2%;
+    font-size: 200%;
+}
+
+.un, .pa, .eb {
+    width: 94%;
+    font-size: 20px;
+    padding-left: 0.7%;
+    margin-bottom: 10px;
+}
+
+.mm {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+.bt {
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 236, 236);
+    padding: 10px;
+}
+
+.to {
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.downleft {
+    font-size: 18px;
+}
+
+.pic {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.end {
+    background-color: blue;
+    color: rgb(248, 243, 243);
+    text-align: center;
+    padding: 10px;
+    margin-top: 9%;
+}
+
+@media (max-width: 768px) {
+    .ash {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .to {
+        margin: 10px 0;
+    }
+
+    .top {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .var {
+        font-size: 150%;
+        padding: 10px;
+    }
+
+    .un, .pa, .eb {
+        width: 100%;
+    }
+
+    .bt {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ash {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .top {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .var {
+        font-size: 120%;
+        padding: 10px;
+    }
+
+    .un, .pa, .eb {
+        font-size: 18px;
+    }
+
+    .bt {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
